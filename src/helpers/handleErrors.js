@@ -27,13 +27,13 @@ export default MyComponent => {
                 this.errorMessage = err.message;
             }
         }
-        ////shouldComponentUpdate() {
-        ////    try {
-        ////        if (super.shouldComponentUpdate) super.shouldComponentUpdate();
-        ////    } catch (err) {
-        ////
-        ////    }
-        ////}
+        shouldComponentUpdate() {
+            try {
+                if (super.shouldComponentUpdate) super.shouldComponentUpdate();
+            } catch (err) {
+
+            }
+        }
         componentDidUpdate() {
             try {
                 if (super.componentDidUpdate) super.componentDidUpdate();
