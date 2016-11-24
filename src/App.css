@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.listItemContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.posterWrapper, .poster {
+  width: 80px;
+  height: 100px;
+}
+
+.listItemContainer {
+  border: 1px solid black;
+}
+
+.listItemContainer.active {
+  background-color: rgba(200, 9, 209, 0.3);
+}
+
+.movieListHeader {
+  height: 40px;
+  font-size: 18px;
+  color: purple;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  line-height: 100px;
+}
+.contentWrapper {
+  margin-left: 10px;
+}
+
+.redScreen {
+  background: red;
+  width: 100%;
+  height: 100vh;
+  /*position: absolute;*/
+  /*top: 0;*/
+}
